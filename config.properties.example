@@ -1,0 +1,25 @@
+# input/output
+input_file=pois.csv
+output_file=brs_output.csv
+
+# delimiters
+csv_delimiter=;
+keyword_delimiter=,
+
+# keyword filters (comma-separated)
+keywords=food,shop
+
+# attribute columns (starting from 1)
+column_id=1
+column_name=2
+column_lon=3
+column_lat=4
+column_keywords=5
+
+# BRS parameters
+eps=0.001
+topk=10
+distinct=true
+decay-constant=0.5
+div=false
+exhaustive=false
